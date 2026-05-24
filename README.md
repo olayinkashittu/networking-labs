@@ -1,5 +1,4 @@
 # networking-labs
-Packet Tracer Lab, Network Diagram
 networking-labs/
 networking-labs/
 │
