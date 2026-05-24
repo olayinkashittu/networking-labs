@@ -1,6 +1,5 @@
 # networking-labs
 networking-labs/
-networking-labs/
 │
 ├── vlan-configuration/
 ├── subnetting-practice/
