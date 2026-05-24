@@ -1,6 +1,5 @@
 # networking-labs
-networking-labs/
-│
+│Cisco networking labs and troubleshooting practice
 ├── vlan-configuration/
 # VLAN Configuration Lab
 
