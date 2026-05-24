@@ -1,6 +1,14 @@
+This repository contains my personal IT portfolio website built using HTML, CSS, and JavaScript.
+
 # networking-labs
 │Cisco networking labs and troubleshooting practice
-├── vlan-configuration/
+portfolio-website
+│
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+└── images/
 # VLAN Configuration Lab
 
 ## Overview
