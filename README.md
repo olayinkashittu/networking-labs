@@ -32,3 +32,26 @@ switchport access vlan 10
 ├── ospf-lab/
 ├── static-routing/
 └── README.md
+
+Another example for troubleshooting:
+
+```md id="8p0bzl"
+# DNS Troubleshooting Lab
+
+## Problem
+Users could not access websites using domain names.
+
+## Steps Taken
+1. Verified IP configuration
+2. Checked DNS settings
+3. Flushed DNS cache
+4. Tested connectivity using ping
+
+## Resolution
+Updated incorrect DNS server configuration.
+
+## Tools Used
+- Command Prompt
+- ipconfig
+- ping
+- nslookup
