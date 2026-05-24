@@ -33,7 +33,7 @@ switchport access vlan 10
 ├── static-routing/
 └── README.md
 
-troubleshooting:
+Another troubleshooting:
 
 ```md id="8p0bzl"
 # DNS Troubleshooting Lab
