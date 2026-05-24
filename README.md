@@ -35,10 +35,6 @@ name SALES
 interface fa0/1
 switchport mode access
 switchport access vlan 10
-├── subnetting-practice/
-├── ospf-lab/
-├── static-routing/
-└── README.md
 
 Another troubleshooting:
 
