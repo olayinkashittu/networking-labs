@@ -1,3 +1,167 @@
+# IT Support & Networking Portfolio
+
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Built With](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-orange)
+
+---
+
+## About Me
+
+Hi, I'm **Olayinka Shittu**.
+
+I am an IT Support Administrator with hands-on experience in:
+
+- IT support and troubleshooting
+- Windows & Linux administration
+- TCP/IP networking
+- DNS & DHCP troubleshooting
+- Active Directory user management
+- Cisco networking fundamentals
+- PowerShell scripting
+
+I enjoy solving technical problems, supporting users, and building reliable IT systems.
+
+---
+
+## Portfolio Website
+
+This repository contains my professional IT Support & Networking portfolio website built using:
+
+- HTML
+- CSS
+- JavaScript
+
+The website showcases:
+- Technical skills
+- Networking labs
+- Troubleshooting projects
+- PowerShell scripts
+- IT support experience
+
+---
+
+## Featured Projects
+
+### DNS Troubleshooting Lab
+
+Diagnosed and resolved DNS-related connectivity issues preventing users from accessing websites using domain names.
+
+#### Tools Used
+- ipconfig
+- ping
+- nslookup
+- Command Prompt
+
+#### Skills Demonstrated
+- DNS troubleshooting
+- Network diagnostics
+- Connectivity testing
+- Windows troubleshooting
+
+---
+
+### VLAN Configuration Lab
+
+Configured VLANs on Cisco switches and assigned switch ports to VLANs.
+
+#### Sample Configuration
+
+```bash
+enable
+configure terminal
+
+vlan 10
+name SALES
+
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+no shutdown
+
+write memory
+```
+
+#### Skills Demonstrated
+- VLAN configuration
+- Cisco switch management
+- Network segmentation
+- CLI administration
+
+---
+
+### PowerShell PC Information Script
+
+Created a PowerShell script to display:
+- System information
+- Disk usage
+- IP configuration
+- Computer details
+
+#### Skills Demonstrated
+- PowerShell scripting
+- Windows administration
+- Automation
+
+---
+
+## Technical Skills
+
+### Operating Systems
+- Windows
+- Linux
+
+### Networking
+- TCP/IP
+- VLANs
+- DNS
+- DHCP
+- LAN/WAN
+
+### Tools & Technologies
+- Active Directory
+- PowerShell
+- Command Prompt
+- Cisco CLI
+- Git & GitHub
+
+---
+
+## Folder Structure
+
+```text
+portfolio-website/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+```
+
+---
+
+## Future Improvements
+
+- Add dark mode
+- Add downloadable CV
+- Add certification section
+- Add contact form
+- Add more networking labs
+- Add Linux administration projects
+
+---
+
+## Connect With Me
+
+- GitHub: https://github.com/olayinkashittu
+- Email: talk2_olayinka@yahoo.com 
+---
+
+## License
+
+This project is licensed under the MIT License.
+
 This repository contains my personal IT portfolio website built using HTML, CSS, and JavaScript.
 
 # networking-labs
