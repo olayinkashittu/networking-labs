@@ -171,6 +171,207 @@ write memory
 </body>
 </html>
 ├── style.css
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #0d1b2a;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('images/network.jpg') center/cover no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0284c7;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0d1b2a;
+}
+
+/* About */
+#about ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#about li {
+    margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+/* Projects */
+.project-card,
+.lab-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-card h3,
+.lab-card h3 {
+    margin-bottom: 15px;
+    color: #0d1b2a;
+}
+
+.project-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Code Block */
+pre {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: #0284c7;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 ├── script.js
 └── images/
 # VLAN Configuration Lab
