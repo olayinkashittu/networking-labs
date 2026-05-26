@@ -170,6 +170,7 @@ portfolio-website
 │
 ├── README.md
 ├── index.html
+<button id="darkToggle">Toggle Dark Mode</button>
 <!DOCTYPE html>
 <html lang="en">
 <head>
