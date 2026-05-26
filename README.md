@@ -173,6 +173,17 @@ networking-labs/
 │
 ├── vlan-configuration/
 │   ├── vlan-config.txt
+enable
+configure terminal
+vlan 10
+name SALES
+
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+no shutdown
+
+write memory
 │   └── vlan-topology.png
 │
 ├── dns-troubleshooting/
