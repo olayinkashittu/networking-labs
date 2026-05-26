@@ -168,7 +168,7 @@ This repository contains my personal IT portfolio website built using HTML, CSS,
 │Cisco networking labs and troubleshooting practice
 portfolio-website
 │
-├── README.md
+
 ├── index.html
 <button id="darkToggle">Toggle Dark Mode</button>
 <!DOCTYPE html>
@@ -561,6 +561,25 @@ footer {
     }
 }
 ├── script.js
+const toggleBtn = document.getElementById("darkToggle");
+
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    // Save preference
+    if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+});
+
+// Load saved theme
+window.addEventListener("load", () => {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+    }
+});
 // Smooth scrolling for navigation links
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function (e) {
