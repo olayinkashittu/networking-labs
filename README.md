@@ -373,5 +373,43 @@ footer {
     }
 }
 ├── script.js
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        targetSection.scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Display current year automatically in footer
+const footer = document.querySelector('footer p');
+const currentYear = new Date().getFullYear();
+
+footer.innerHTML = `© ${currentYear} Olayinka Shittu | IT Support Portfolio`;
+
+// Simple fade-in animation on scroll
+const sections = document.querySelectorAll('section');
+
+window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight / 1.2;
+
+        if (sectionTop < screenPosition) {
+            section.classList.add('show');
+        }
+    });
+});
+
+// Add initial hidden class
+sections.forEach(section => {
+    section.classList.add('hidden');
+});
 └── images/
 # VLAN Configuration Lab
