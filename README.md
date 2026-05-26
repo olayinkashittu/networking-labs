@@ -170,7 +170,7 @@ portfolio-website
 │
 
 ├── index.html
-<button id="darkToggle">Toggle Dark Mode</button>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -333,6 +333,7 @@ write memory
 
     <script src="script.js"></script>
 
+<button id="darkToggle">Toggle Dark Mode</button>
 </body>
 </html>
 ├── style.css
