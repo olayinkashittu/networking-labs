@@ -166,6 +166,26 @@ This repository contains my personal IT portfolio website built using HTML, CSS,
 # networking-labs
 │Cisco networking labs and troubleshooting practice
 portfolio-website
+
+networking-labs/
+│
+├── README.md
+│
+├── vlan-configuration/
+│   ├── vlan-config.txt
+│   └── vlan-topology.png
+│
+├── dns-troubleshooting/
+│   ├── README.md
+│   └── screenshots/
+│
+├── subnetting-notes/
+│   └── subnetting-cheatsheet.md
+│
+├── switch-security/
+│   └── port-security-config.txt
+│
+└── images/
 │
 
 ├── index.html
