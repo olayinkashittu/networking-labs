@@ -336,6 +336,29 @@ write memory
 </body>
 </html>
 ├── style.css
+/* Default Light Mode */
+body {
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #0d1117;
+    color: #ffffff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #161b22;
+}
+
+.dark-mode .card,
+.dark-mode .project-card,
+.dark-mode .lab-card {
+    background-color: #1f2937;
+    color: #ffffff;
+}
 /* Reset */
 * {
     margin: 0;
