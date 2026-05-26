@@ -144,7 +144,7 @@ portfolio-website/
 ## Future Improvements
 
 - Implemented dark mode toggle with JavaScript and CSS class switching
-- Add downloadable CV
+- Downloadable CV
 - Add certification section
 - Add contact form
 - Add more networking labs
