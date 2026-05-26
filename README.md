@@ -141,14 +141,13 @@ portfolio-website/
 
 ---
 
-## Future Improvements
+## Improvements
 
 - Implemented dark mode toggle with JavaScript and CSS class switching
 - Downloadable CV
-- Certification section
-- Add contact form
-- Add more networking labs
-- Add Linux administration projects
+- Certifications 
+- Networking labs
+- Linux administration projects
 
 ---
 
