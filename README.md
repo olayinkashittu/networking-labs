@@ -145,7 +145,7 @@ portfolio-website/
 
 - Implemented dark mode toggle with JavaScript and CSS class switching
 - Downloadable CV
-- Add certification section
+- Certification section
 - Add contact form
 - Add more networking labs
 - Add Linux administration projects
