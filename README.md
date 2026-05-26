@@ -195,6 +195,12 @@ write memory
 │
 ├── switch-security/
 │   └── port-security-config.txt
+interface fa0/2
+switchport mode access
+switchport port-security
+switchport port-security maximum 1
+switchport port-security violation shutdown
+switchport port-security mac-address sticky
 │
 └── images/
 │
